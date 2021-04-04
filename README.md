@@ -33,4 +33,4 @@ Produces
 ## How it works
 I've a parser that walks through the SVG and generates `Commands` (an enum) which are then processed generating a `Path`.
 
-All the code is in [Sources\SvgVectorView\SvgVectorView.swift](Sources\SvgVectorView\SvgVectorView.swift)
+All the code is in [Sources/SvgVectorView/SvgVectorView.swift](Sources/SvgVectorView/SvgVectorView.swift)
