@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SvgVectorView: View {
+public struct SvgVectorView: View {
     
     let pathData: String
     
@@ -37,7 +37,7 @@ struct SvgVectorView: View {
     
     
     
-    var body: some View {
+    public var body: some View {
         Path { path in
             var parser = PathDataParser(pathData: pathData)
             let commands = parser.parse()
