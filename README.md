@@ -4,6 +4,8 @@ A pure Swift/SwiftUI view that renders SVG path data.
 
 This is is the bare minimum that I needed for my project - not all SVG commands are supported - pull requests welcome.
 
+I am not an SVG expert, I first read [the spec](https://www.w3.org/TR/SVG/paths.html#PathData) a couple of days ago.
+
 An example:
 
 ```swift
