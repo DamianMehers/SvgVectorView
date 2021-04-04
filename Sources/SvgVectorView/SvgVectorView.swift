@@ -9,7 +9,7 @@ import SwiftUI
 
 public struct SvgVectorView: View {
     
-    let pathData: String
+    private let pathData: String
     
     // From https://www.w3.org/TR/SVG/paths.html#PathData - I've kept the argument names from that document, except using dx/dy for relative arguments
     fileprivate enum Command {
@@ -35,6 +35,9 @@ public struct SvgVectorView: View {
         case invalid(command: String, expected: Int, actual: Int)
     }
     
+    public init(pathData: String) {
+        self.pathData = pathData
+    }
     
     
     public var body: some View {
