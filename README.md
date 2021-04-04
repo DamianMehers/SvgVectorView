@@ -27,7 +27,7 @@ M356.5 16.375l-174.906 255.22 1.53 1.06 31.97 22.314 175.062-255.5L356.5 16.374z
 ```
 Produces
 
-![An example](example.PNG)
+![An example](example.png)
 
 
 ## How it works
