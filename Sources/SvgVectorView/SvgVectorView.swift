@@ -1,6 +1,5 @@
 //
 //  SvgVector.swift
-//  AplTests
 //
 //  Created by Damian Mehers on 04.04.21.
 //
